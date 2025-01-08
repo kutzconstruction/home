@@ -303,7 +303,8 @@ img {
 
   .img4 {
     flex-basis: 12rem;
-    margin: 1rem;
+    width: 90%;
+    margin: .5rem;
   }
 
   .img5 {
