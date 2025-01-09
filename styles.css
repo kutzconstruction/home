@@ -302,7 +302,9 @@ img {
   }
 
   .img4 {
-    flex-basis: 12rem;
+    flex-basis: 50vh;
+    width: auto;
+    height: auto;
   }
 
   .img5 {
