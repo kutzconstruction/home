@@ -137,6 +137,10 @@ img {
   flex-basis: 24rem;
 }
 
+.img4b {
+  flex-basis: 48rem;
+}
+
 .img5 {
   height: 12rem;
 }
@@ -303,6 +307,10 @@ img {
 
   .img4 {
     flex-basis: 12rem;
+  }
+
+  .img4b {
+    flex-basis: 24rem;
   }
 
   .img5 {
