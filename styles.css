@@ -77,7 +77,6 @@ img {
 .div8 {
   display: inline-flex;
   flex-direction: column;
-  gap: .5rem;
   align-items: center;
 }
 
@@ -136,6 +135,7 @@ img {
 
 .img4 {
   flex-basis: 18rem;
+  margin: 1rem auto;
 }
 
 .img4b {
@@ -240,7 +240,6 @@ img {
   .div8 {
     display: inline-flex;
     flex-direction: column;
-    gap: .5rem;
     align-items: center;
   }
   
@@ -309,6 +308,7 @@ img {
 
   .img4 {
     flex-basis: 12rem;
+    margin: .5rem auto;
   }
 
   .img4b {
