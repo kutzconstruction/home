@@ -302,7 +302,7 @@ img {
   }
 
   .img4 {
-    flex-basis: 50vh;
+    flex-basis: .5vh;
     width: auto;
     height: auto;
   }
