@@ -302,8 +302,7 @@ img {
   }
 
   .img4 {
-    /*flex-basis: 12rem;*/
-    margin: auto 0;
+    flex-basis: 12rem;
   }
 
   .img5 {
