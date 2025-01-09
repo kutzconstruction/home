@@ -77,6 +77,7 @@ img {
 .div8 {
   display: inline-flex;
   flex-direction: column;
+  gap: .5rem;
   align-items: center;
 }
 
@@ -239,6 +240,7 @@ img {
   .div8 {
     display: inline-flex;
     flex-direction: column;
+    gap: .5rem;
     align-items: center;
   }
   
