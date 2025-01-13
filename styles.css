@@ -135,7 +135,7 @@ img {
 
 .img4 {
   flex-basis: 18rem;
-  margin: 1rem auto;
+  margin: .5rem auto;
 }
 
 .img4b {
@@ -308,7 +308,7 @@ img {
 
   .img4 {
     flex-basis: 12rem;
-    margin: .5rem auto;
+    margin: .25rem auto;
   }
 
   .img4b {
