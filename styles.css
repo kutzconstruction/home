@@ -147,12 +147,12 @@ img {
 }
 
 .img4 {
-  flex-basis: 12rem;
+  flex-basis: 18rem;
   margin: .5rem auto;
 }
 
 .img44 {
-  flex-basis: 9rem;
+  flex-basis: 6rem;
   margin: .5rem auto;
 }
 
@@ -344,7 +344,7 @@ img {
   }
 
   .img44 {
-    flex-basis: 4.5rem;
+    flex-basis: 4rem;
     margin: .25rem auto;
   }
 
