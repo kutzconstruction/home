@@ -37,6 +37,12 @@ img {
   text-align: center;
 }
 
+.h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
 .hr1 {
 
 }
@@ -210,6 +216,12 @@ img {
   .h2 {
     font-size: 1rem;
     font-weight: normal;
+    text-align: center;
+  }
+
+  .h3 {
+    font-size: 1rem;
+    font-weight: bold;
     text-align: center;
   }
 
