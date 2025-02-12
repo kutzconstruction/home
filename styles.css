@@ -110,7 +110,9 @@ img {
   */
 
 .div8 {
-  display: flex;
+  display: inline-flex;
+  flex-direction: column;
+  gap: .25rem;
 }
 
 .div8b {
@@ -172,11 +174,13 @@ img {
 }
 
 .img4 {
-  height: 12rem;
+  flex-basis: 12rem;
+  margin: 0 auto;
 }
 
 .img44 {
-  height: 4rem;
+  flex-basis: 4rem;
+  margin: 0 auto;
 }
 
 .img4b {
