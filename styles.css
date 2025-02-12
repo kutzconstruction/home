@@ -325,25 +325,25 @@ img {
   .div8 {
     display: inline-flex;
     flex-direction: column;
-    justify-content: center;
+    gap: .25rem;
   }
   
   .div8b {
     display: inline-flex;
     flex-direction: column;
-    justify-content: center;
+    gap: .25rem;
   }
   
   .div8f {
     display: inline-flex;
     flex-direction: column;
-    justify-content: center;
+    gap: .25rem;
   }
   
   .div8z {
     display: inline-flex;
     flex-direction: column;
-    justify-content: center;
+    gap: .25rem;
   }
 
   .div9 {
@@ -404,26 +404,26 @@ img {
 
   .img4 {
     flex-basis: 12rem;
-    margin: .25rem auto;
+
   }
 
   .img44 {
     flex-basis: 4rem;
-    margin: .25rem auto;
+
   }
 
   .img4b {
     flex-basis: 36rem;
-    margin: .25rem auto;
+
   }
 
   .img4f {
     flex-basis: 12rem;
-    margin: .25rem auto;
+
   }
 
   .img4z {
     flex-basis: 12rem;
-    margin: .25rem auto;
+
   }
 }
