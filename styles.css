@@ -330,19 +330,16 @@ img {
   .div8b {
     display: inline-flex;
     flex-direction: column;
-    align-items: center;
   }
   
   .div8f {
     display: inline-flex;
     flex-direction: column;
-    align-items: center;
   }
   
   .div8z {
     display: inline-flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .div9 {
@@ -412,11 +409,13 @@ img {
   }
 
   .img4b {
-    height: 8rem;
+    flex-basis: 12rem;
+    margin: .25rem auto;
   }
 
   .img4f {
-    height: 8rem;
+    flex-basis: 8rem;
+    margin: .25rem auto;
   }
 
   .img4z {
