@@ -324,20 +324,22 @@ img {
 
   .div8 {
     display: flex;
-  
+    flex-direction: column;
   }
   
   .div8b {
     display: flex;
-  
+    flex-direction: column;
   }
   
   .div8f {
     display: flex;
+    flex-direction: column;
   }
   
   .div8z {
     display: flex;
+    flex-direction: column;
   }
 
   .div9 {
