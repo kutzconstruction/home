@@ -323,22 +323,22 @@ img {
     */
 
   .div8 {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
   }
   
   .div8b {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
   }
   
   .div8f {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
   }
   
   .div8z {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
   }
 
