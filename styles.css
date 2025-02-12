@@ -80,51 +80,32 @@ img {
   justify-content: center;
 }
 
-/*
-.div8 {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.div8b {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.div8f {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.div8z {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-  */
-
 .div8 {
   display: inline-flex;
   flex-direction: column;
   gap: .25rem;
+  justify-content: center;
 }
 
 .div8b {
   display: flex;
+  flex-wrap: wrap;
+  gap: .25rem;
+  justify-content: center;
 }
 
 .div8f {
   display: flex;
+  flex-wrap: wrap;
+  gap: .25rem;
+  justify-content: center;
 }
 
 .div8z {
   display: flex;
+  flex-wrap: wrap;
+  gap: .25rem;
+  justify-content: center;
 }
 
 .div9 {
