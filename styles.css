@@ -325,21 +325,25 @@ img {
   .div8 {
     display: inline-flex;
     flex-direction: column;
+    justify-content: center;
   }
   
   .div8b {
     display: inline-flex;
     flex-direction: column;
+    justify-content: center;
   }
   
   .div8f {
     display: inline-flex;
     flex-direction: column;
+    justify-content: center;
   }
   
   .div8z {
     display: inline-flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .div9 {
