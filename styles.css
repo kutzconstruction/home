@@ -179,11 +179,11 @@ img {
 }
 
 .img4a {
-  height: 30rem;
+  height: 24rem;
 }
 
 .img4b {
-  height: 30rem;
+  height: 24rem;
 }
 
 .img4c {
@@ -398,12 +398,12 @@ img {
   }
 
   .img4a {
-    flex-basis: 30rem;
+    flex-basis: 24rem;
     margin: 0 auto;
   }
 
   .img4b {
-    flex-basis: 30rem;
+    flex-basis: 24rem;
     margin: 0 auto;
   }
 
