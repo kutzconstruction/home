@@ -1,5 +1,8 @@
 html {
-  font-size: 18pt;
+  font-size: 18pt;  
+}
+
+body {
   background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='33' height='30' patternTransform='scale(3) rotate(20)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M0 22.5h30v15H0zm15-15h30v15H15m-30-15h30v15h-30zm15-15h30v15H0z' transform='translate(1.5,0)' stroke-width='1' stroke='hsla(215,77.4%,89.6%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-93,-66)' fill='url(%23a)'/></svg>")
 }
 
@@ -291,10 +294,13 @@ input[type=submit]:hover {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   html {
-    font-size: 36pt;
-    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='33' height='30' patternTransform='scale(3) rotate(20)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M0 22.5h30v15H0zm15-15h30v15H15m-30-15h30v15h-30zm15-15h30v15H0z' transform='translate(1.5,0)' stroke-width='1' stroke='hsla(215,77.4%,89.6%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-93,-66)' fill='url(%23a)'/></svg>")
+    font-size: 36pt;    
   }
   
+  body {
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='33' height='30' patternTransform='scale(3) rotate(20)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M0 22.5h30v15H0zm15-15h30v15H15m-30-15h30v15h-30zm15-15h30v15H0z' transform='translate(1.5,0)' stroke-width='1' stroke='hsla(215,77.4%,89.6%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-93,-66)' fill='url(%23a)'/></svg>")
+  }
+
   h1 {
     font-size: 1rem;
     font-weight: normal;
