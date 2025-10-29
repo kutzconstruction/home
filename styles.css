@@ -140,6 +140,13 @@ img {
   justify-content: center;
 }
 
+.div8h {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .25rem;
+  justify-content: center;
+}
+
 .div8z {
   display: flex;
   flex-wrap: wrap;
@@ -256,13 +263,15 @@ img {
 
 
 
-form {
+/* form {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
 }
 
-label {display: block;}
+label {
+  display: block;
+}
 
 input[type=text], select {
   width: 100%;
@@ -287,7 +296,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
-}
+} */
 
 
 
@@ -426,6 +435,12 @@ input[type=submit]:hover {
     flex-direction: column;
     gap: .25rem;
   }
+
+    .div8h {
+    display: inline-flex;
+    flex-direction: column;
+    gap: .25rem;
+  }
   
   .div8z {
     display: inline-flex;
@@ -544,13 +559,15 @@ input[type=submit]:hover {
     margin: 0 auto;
   }
 
-  form {
+  /* form {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
   }
 
-  label {display: block;}
+  label {
+    display: block;
+  }
 
   input[type=text], select {
     width: 100%;
@@ -575,7 +592,7 @@ input[type=submit]:hover {
 
   input[type=submit]:hover {
     background-color: #45a049;
-  }
+  } */
 
 
 
