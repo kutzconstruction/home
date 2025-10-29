@@ -113,15 +113,15 @@ img {
 }
 
 .div8d {
-  display: inline-flex;
-  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
   gap: .25rem;
   justify-content: center;
 }
 
 .div8e {
-  display: inline-flex;
-  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
   gap: .25rem;
   justify-content: center;
 }
@@ -413,7 +413,7 @@ input[type=submit] {
     gap: .25rem;
   }
 
-    .div8h {
+  .div8h {
     display: inline-flex;
     flex-direction: column;
     gap: .25rem;
