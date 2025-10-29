@@ -112,12 +112,14 @@ img {
   display: inline-flex;
   flex-direction: column;
   gap: .25rem;
+  margin: 0 auto;
 }
 
 .div8e {
   display: inline-flex;
   flex-direction: column;
   gap: .25rem;
+  margin: 0 auto;
 }
 
 .div8f {
