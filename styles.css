@@ -47,10 +47,6 @@ img {
   text-align: center;
 }
 
-.hr1 {
-
-}
-
 .poiret-one-regular {
   font-family: "Poiret One", sans-serif;
   font-weight: 400;
@@ -261,7 +257,9 @@ img {
   height: 1.5rem;
 }
 
-
+ul {
+display: block;
+}
 
 label {
   font-size: 1rem;
