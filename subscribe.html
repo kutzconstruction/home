@@ -73,7 +73,25 @@
       <input type="submit" value="register">
     </form>
 
-    <p class="">already registered???</p>
+    <p class="">
+      <%=note1%>
+    </p>
+
+      <form action="/update" method="post">
+      <label for="username">username</label>
+      <input type="text" id="username" name="username" required><br>
+      <label for="password">password</label>
+      <input type="text" id="password" name="password" required><br>      
+      <label for="newusername">new username</label>
+      <input type="text" id="newusername" name="newusername" required><br>
+      <label for="newpassword">new password</label>
+      <input type="text" id="newpassword" name="newpassword" required><br>      
+      <input type="submit" value="update">
+    </form>
+
+    <p class="">
+      <%=note2%>
+    </p>
 
     <form action="/login" method="post">
       <label for="username">username</label>
@@ -82,7 +100,10 @@
       <input type="text" id="password" name="password" required><br>      
       <input type="submit" value="login">
     </form>
-
+    
+    <p class="">
+      <%=note3%>
+    </p>
 
 
   </div>
