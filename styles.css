@@ -1,9 +1,16 @@
-html {
+body, html {
+  height: 100%;
+  margin: 0; /* Removes default body margin */
+  padding: 0; /* Removes default body padding */
   font-size: 18pt;  
 }
 
 body {
-  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='60' height='30' patternTransform='scale(3) rotate(170)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(50,100%,98.8%,1)'/><path d='M1-6.5v13h28v-13H1zm15 15v13h28v-13H16zm-15 15v13h28v-13H1z'  stroke-width='1' stroke='none' fill='hsla(212,100%,94.5%,1)'/><path d='M31-6.5v13h28v-13H31zm-45 15v13h28v-13h-28zm60 0v13h28v-13H46zm-15 15v13h28v-13H31z'  stroke-width='1' stroke='none' fill='hsla(36,100%,92.2%,1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(-138,-93)' fill='url(%23a)'/></svg>")
+  background-image: url("pexels-markusspiske-1089438.jpg");
+  background-repeat: no-repeat; /* Prevents the image from tiling */
+  background-attachment: fixed; /* Keeps the image fixed in the viewport */
+  background-position: center; /* Centers the image */
+  background-size: cover; /* Scales the image to cover the entire screen */
 }
 
 h1 {
@@ -270,16 +277,38 @@ input[type=submit] {
   font-size: 1rem;
 }
 
-
-
+.bitcount-prop-single-ink-piolo {
+  font-family: "Bitcount Prop Single Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  html {
-    font-size: 36pt;    
+  body, html {
+    height: 100%;
+    margin: 0; /* Removes default body margin */
+    padding: 0; /* Removes default body padding */
+    font-size: 36pt;  
   }
-  
+
   body {
-    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='60' height='30' patternTransform='scale(3) rotate(170)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(50,100%,98.8%,1)'/><path d='M1-6.5v13h28v-13H1zm15 15v13h28v-13H16zm-15 15v13h28v-13H1z'  stroke-width='1' stroke='none' fill='hsla(212,100%,94.5%,1)'/><path d='M31-6.5v13h28v-13H31zm-45 15v13h28v-13h-28zm60 0v13h28v-13H46zm-15 15v13h28v-13H31z'  stroke-width='1' stroke='none' fill='hsla(36,100%,92.2%,1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(-138,-93)' fill='url(%23a)'/></svg>")
+    background-image: url("pexels-markusspiske-1089438.jpg");
+    background-repeat: no-repeat; /* Prevents the image from tiling */
+    background-attachment: fixed; /* Keeps the image fixed in the viewport */
+    background-position: center; /* Centers the image */
+    background-size: cover; /* Scales the image to cover the entire screen */
   }
 
   h1 {
@@ -547,11 +576,22 @@ input[type=submit] {
     font-size: 1rem;
   }
 
-
-
-
-
-
-
+  .bitcount-prop-single-ink-piolo {
+    font-family: "Bitcount Prop Single Ink", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0.5,
+      "ELSH" 0,
+      "ELXP" 0,
+      "SZP1" 0,
+      "SZP2" 0,
+      "XPN1" 0,
+      "XPN2" 0,
+      "YPN1" 0,
+      "YPN2" 0;
+  }
 
 }
