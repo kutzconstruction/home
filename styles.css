@@ -1,10 +1,11 @@
 html {
   font-size: 18pt;  
+  padding: 0 4.5pt; /* Removes default body padding */
 }
 
 body {
   height: 100%;
-  margin: 0 .25rem; /* Removes default body margin */
+  margin: 0; /* Removes default body margin */
   padding: 0; /* Removes default body padding */
   background-image: url("bkgrdimg.jpg");
   background-repeat: no-repeat; /* Prevents the image from tiling */
@@ -298,11 +299,12 @@ input[type=submit] {
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
     html {
       font-size: 36pt;  
+      padding: 0 9pt; /* Removes default body padding */
     }
 
     body {
       height: 100%;
-      margin: 0 .25rem; /* Removes default body margin */
+      margin: 0; /* Removes default body margin */
       padding: 0; /* Removes default body padding */
       background-image: url("bkgrdimg.jpg");
       background-repeat: no-repeat; /* Prevents the image from tiling */
