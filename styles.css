@@ -1,12 +1,12 @@
 body, html {
   height: 100%;
-  margin: 0; /* Removes default body margin */
+  margin: 0 1rem; /* Removes default body margin */
   padding: 0; /* Removes default body padding */
   font-size: 18pt;  
 }
 
 body {
-  background-image: url("pexels-pixabay-2150.jpg");
+  background-image: url("bkgrdimg.jpg");
   background-repeat: no-repeat; /* Prevents the image from tiling */
   background-attachment: fixed; /* Keeps the image fixed in the viewport */
   background-position: center; /* Centers the image */
@@ -298,13 +298,13 @@ input[type=submit] {
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
   body, html {
     height: 100%;
-    margin: 0; /* Removes default body margin */
+    margin: 0 1rem; /* Removes default body margin */
     padding: 0; /* Removes default body padding */
     font-size: 36pt;  
   }
 
   body {
-    background-image: url("pexels-pixabay-2150.jpg");
+    background-image: url("bkgrdimg.jpg");
     background-repeat: no-repeat; /* Prevents the image from tiling */
     background-attachment: fixed; /* Keeps the image fixed in the viewport */
     background-position: center; /* Centers the image */
